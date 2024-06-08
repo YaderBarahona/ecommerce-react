@@ -70,8 +70,7 @@
 
 import React, { useState } from "react";
 import { Footer, Navbar } from "../components";
-import { useSelector, useDispatch } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 import { toast, ToastContainer } from 'react-toastify';
 import { loadStripe } from '@stripe/stripe-js';
 
